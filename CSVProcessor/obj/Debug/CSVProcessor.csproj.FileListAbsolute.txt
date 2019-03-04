@@ -60,3 +60,5 @@ C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\obj\Debug\CSVProcessor
 C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\obj\Debug\CSVProcessor.csproj.CopyComplete
 C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\obj\Debug\CSVProcessor.exe
 C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\obj\Debug\CSVProcessor.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\bin\Debug\CSVProcessor.Helpers.dll
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor\bin\Debug\CSVProcessor.Helpers.pdb

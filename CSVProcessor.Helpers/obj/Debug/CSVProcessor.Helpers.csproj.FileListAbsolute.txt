@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Helpers.dll
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Helpers.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Contracts.dll
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Contracts.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\obj\Debug\CSVProcessor.Helpers.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\obj\Debug\CSVProcessor.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\obj\Debug\CSVProcessor.Helpers.csproj.CopyComplete
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\obj\Debug\CSVProcessor.Helpers.dll
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\obj\Debug\CSVProcessor.Helpers.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Helpers.dll.CodeAnalysisLog.xml
+C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Helpers\bin\Debug\CSVProcessor.Helpers.dll.lastcodeanalysissucceeded

@@ -1,6 +1,8 @@
-﻿using CSVProcessor.Contracts.Logging;
+﻿using CSVProcessor.Contracts.Helper;
+using CSVProcessor.Contracts.Logging;
 using CSVProcessor.Contracts.Repository;
 using CSVProcessor.Contracts.Service;
+using CSVProcessor.Helpers;
 using CSVProcessor.Logging;
 using CSVProcessor.Repository;
 using CSVProcessor.Service;
@@ -34,6 +36,7 @@ namespace CSVProcessor
             container.RegisterSingleton<ICSVProcessorRepository, CSVProcessorRepository>();
             container.RegisterSingleton<ICSVProcessorService, CSVProcessorService>();
             container.RegisterSingleton<ILogger, Logger>();
+            container.RegisterSingleton<IHelper, Helper>();
         }
     }
 }

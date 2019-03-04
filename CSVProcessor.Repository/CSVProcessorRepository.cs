@@ -1,4 +1,5 @@
-﻿using CSVProcessor.Contracts.Logging;
+﻿using CSVProcessor.Contracts.Helper;
+using CSVProcessor.Contracts.Logging;
 using CSVProcessor.Contracts.Repository;
 using CSVProcessor.Models;
 using System;
@@ -29,13 +30,19 @@ namespace CSVProcessor.Repository
         private ILogger _logger;
 
         /// <summary>
+        /// Helper
+        /// </summary>
+        private IHelper _helper;
+
+        /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="logger"></param>
-        public CSVProcessorRepository(ILogger logger)
+        public CSVProcessorRepository(ILogger logger, IHelper helper)
         {
             _csvBasePath = ConfigurationManager.AppSettings["BasePath"] ?? throw new ArgumentException("Base Path is not defined.");
             _logger = logger ?? throw new ArgumentNullException(nameof(logger) + "is null.");
+            _helper = helper ?? throw new ArgumentNullException(nameof(helper) + "is null.");
         }
 
         /// <summary>
@@ -48,7 +55,7 @@ namespace CSVProcessor.Repository
             var filePath = string.Concat(_csvBasePath, csvName);
             IList<object> data = null;
 
-            if (string.IsNullOrEmpty(csvName) || !File.Exists(filePath))
+            if (string.IsNullOrEmpty(csvName) || !_helper.FileExists(filePath))
                 return data;
 
             try
@@ -61,7 +68,7 @@ namespace CSVProcessor.Repository
                     PropertyInfo[] filefields;
                     filefields = objType.GetProperties();
                     //Get the data from the CSV file and populate the object listDataTable 
-                    var tmpTable = GetDataTableFromCSVFile(filePath);
+                    var tmpTable = _helper.GetDataTableFromCSVFile(filePath);
                     foreach (DataRow dr in tmpTable.Rows)
                     {
                         object tmpObj = Activator.CreateInstance(objType);
@@ -101,18 +108,14 @@ namespace CSVProcessor.Repository
             var filePath = string.Concat(_csvBasePath, csvName);
             var success = false;
 
-            if (string.IsNullOrEmpty(csvName) || !File.Exists(filePath))
+            if (string.IsNullOrEmpty(csvName) || !_helper.FileExists(filePath))
                 return success;
 
             try
             {
-                if (data.Any())
+                if (!string.IsNullOrEmpty(data))
                 {
-                    if (File.Exists(filePath))
-                    {
-                        File.AppendAllText(filePath, data);
-                        success = true;
-                    }
+                    success = _helper.AppendDataTofile(filePath, data);
                 }
             }
             catch (Exception ex)
@@ -157,45 +160,7 @@ namespace CSVProcessor.Repository
             }
         }
 
-        /// <summary>
-        /// Get data table from the csv file.
-        /// </summary>
-        /// <param name="strFilePath"></param>
-        /// <returns></returns>
-        private DataTable GetDataTableFromCSVFile(string strFilePath)
-        {
-            DataTable csvData = new DataTable();
-            try
-            {
-                DataTable dt = new DataTable();
-                using (StreamReader sr = new StreamReader(strFilePath))
-                {
-                    var headers = sr.ReadLine().Split(',');
-                    foreach (string header in headers)
-                    {
-                        dt.Columns.Add(header.Replace(" ", string.Empty).Trim().ToLower());
-                    }
-                    while (!sr.EndOfStream)
-                    {
-                        string[] rows = sr.ReadLine().Split(',');
-                        DataRow dr = dt.NewRow();
-                        for (int i = 0; i < headers.Length; i++)
-                        {
-                            dr[i] = rows[i];
-                        }
-                        dt.Rows.Add(dr);
-                    }
-
-                }
-
-                return dt;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError("Exception: ", ex);
-                throw ex;
-            }
-        }
+       
 
         #endregion
     }

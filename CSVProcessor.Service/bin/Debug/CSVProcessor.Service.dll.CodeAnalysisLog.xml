@@ -12,14 +12,14 @@
          <Members>
           <Member Name="#GetData(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-03-04 13:48:40Z" FixCategory="NonBreaking">
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-03-04 20:39:59Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Service" File="CSVProcessorService.cs" Line="48">'CSVProcessorService.GetData(string)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#WriteData(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-03-04 13:48:40Z" FixCategory="NonBreaking">
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-03-04 20:39:59Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\admin\Desktop\Mine\CSVProcessorRepo\CSVProcessor.Service" File="CSVProcessorService.cs" Line="69">'CSVProcessorService.WriteData(string, string)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
             </Message>
            </Messages>

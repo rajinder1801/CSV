@@ -67,6 +67,10 @@
       <Project>{f7159330-89fc-4928-9b32-da29784bc1b2}</Project>
       <Name>CSVProcessor.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CSVProcessor.Helpers\CSVProcessor.Helpers.csproj">
+      <Project>{ac4ca2f2-adcd-49bb-a034-41dfca979c99}</Project>
+      <Name>CSVProcessor.Helpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSVProcessor.Logger\CSVProcessor.Logging.csproj">
       <Project>{844b6e03-40e8-448f-8d17-8219f6beb9ad}</Project>
       <Name>CSVProcessor.Logging</Name>
