@@ -1,7 +1,0 @@
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\bin\Debug\CSVProcessor.Models.dll
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\bin\Debug\CSVProcessor.Models.pdb
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\bin\Debug\CSVProcessor.Models.dll.CodeAnalysisLog.xml
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\bin\Debug\CSVProcessor.Models.dll.lastcodeanalysissucceeded
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\obj\Debug\CSVProcessor.Models.csproj.CoreCompileInputs.cache
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\obj\Debug\CSVProcessor.Models.dll
-C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Models\obj\Debug\CSVProcessor.Models.pdb

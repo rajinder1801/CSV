@@ -1,6 +1,0 @@
-﻿DeptId,DeptName,DeptWorkingDays
-1,IT,Mon Wed Fri
-2,Admin,Mon Tue Wed Thu Fri Sat
-3,HR,Mon Tue
-4,Operations,Mon Tue Wed Thu Fri Sat Sun
-5,Sales,Mon Fri
