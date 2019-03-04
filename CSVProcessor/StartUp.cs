@@ -34,12 +34,12 @@ namespace CSVProcessor
             {
                 Console.WriteLine(file);
             }
-            Console.WriteLine("Please Enter a File Name: ");
+            Console.Write("Please Enter a File Name: ");
             var fileName = Console.ReadLine();
 
             while (!csvFiles.Contains(fileName))
             {
-                Console.WriteLine("Please Enter a Valid File Name: ");
+                Console.Write("Please Enter a Valid File Name: ");
                 fileName = Console.ReadLine();
             }
 

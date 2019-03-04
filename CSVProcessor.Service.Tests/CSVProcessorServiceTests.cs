@@ -34,7 +34,7 @@ namespace CSVProcessor.Service.Tests
         {
             var expected = new List<SaleRecord>
             {
-                {new  SaleRecord{ Country= "Australia", OrderDate = DateTime.Today, OrderID = 1, TotalCost = 100.00, UnitsSold = 1}}
+                {new  SaleRecord{ Country= "Australia", OrderID = 1, TotalCost = 100.00, UnitsSold = 1}}
             };
             _cSVProcessorRepositoryMock.Setup(x => x.GetData(It.IsAny<string>())).Returns(expected);
 
