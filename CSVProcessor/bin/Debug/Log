@@ -1,0 +1,42 @@
+2019-03-04 20:00:42,826 [1] ERROR CSVProcessor.Logging.Logger - Exception : 
+System.IO.FileNotFoundException: Could not load file or assembly 'file:///C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor\bin\Debug\CSVProcessor.Models' or one of its dependencies. The system cannot find the file specified.
+File name: 'file:///C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor\bin\Debug\CSVProcessor.Models'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at CSVProcessor.Repository.CSVProcessorRepository.CreateInstance[I](String className) in C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\CSVProcessorRepository.cs:line 130
+   at CSVProcessor.Repository.CSVProcessorRepository.GetData(String csvName) in C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\CSVProcessorRepository.cs:line 67
+
+=== Pre-bind state information ===
+LOG: Where-ref bind. Location = C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor\bin\Debug\CSVProcessor.Models
+LOG: Appbase = file:///C:/Users/admin/Desktop/Mine/CSVProcessor/CSVProcessor/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : (Unknown).
+===
+LOG: This bind starts in LoadFrom load context.
+WRN: Native image will not be probed in LoadFrom context. Native image will only be probed in default load context, like with Assembly.Load().
+LOG: Using application configuration file: C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor\bin\Debug\CSVProcessor.exe.Config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Attempting download of new URL file:///C:/Users/admin/Desktop/Mine/CSVProcessor/CSVProcessor/bin/Debug/CSVProcessor.Models.
+
+2019-03-04 20:33:21,205 [1] ERROR CSVProcessor.Logging.Logger - Exception : 
+System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at CSVProcessor.Repository.CSVProcessorRepository.GetData(String csvName) in C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\CSVProcessorRepository.cs:line 69
+2019-03-04 20:40:37,465 [1] ERROR CSVProcessor.Logging.Logger - Exception : 
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.DateTime'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at CSVProcessor.Repository.CSVProcessorRepository.GetData(String csvName) in C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\CSVProcessorRepository.cs:line 77
