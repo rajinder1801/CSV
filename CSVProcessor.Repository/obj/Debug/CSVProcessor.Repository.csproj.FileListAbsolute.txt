@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\obj\Debug\CSVProcessor.Repository.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\obj\Debug\CSVProcessor.Repository.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\Data\SaleRecords.csv
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Repository.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Repository.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Repository.dll.CodeAnalysisLog.xml
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Repository.dll.lastcodeanalysissucceeded
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Contracts.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Models.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Contracts.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\CSVProcessor.Models.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\obj\Debug\CSVProcessor.Repository.csproj.CopyComplete
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\obj\Debug\CSVProcessor.Repository.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\obj\Debug\CSVProcessor.Repository.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Repository\bin\Debug\Data\Departments.csv

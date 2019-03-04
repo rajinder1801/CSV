@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\Logger.config
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Logging.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Logging.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Logging.dll.CodeAnalysisLog.xml
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Logging.dll.lastcodeanalysissucceeded
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Contracts.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\CSVProcessor.Contracts.pdb
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\bin\Debug\log4net.xml
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\obj\Debug\CSVProcessor.Logging.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\obj\Debug\CSVProcessor.Logging.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\obj\Debug\CSVProcessor.Logging.csproj.CopyComplete
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\obj\Debug\CSVProcessor.Logging.dll
+C:\Users\admin\Desktop\Mine\CSVProcessor\CSVProcessor.Logger\obj\Debug\CSVProcessor.Logging.pdb
